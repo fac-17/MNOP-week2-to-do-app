@@ -1,0 +1,16 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "main": "dom.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}
