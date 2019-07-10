@@ -110,3 +110,35 @@ test("Return entire todo array with single object.done value toggled", function(
   t.deepEqual(actual, expected, "Buy shoes should be false");
   t.end();
 });
+
+
+// test("Return a clone of the todo array with nothing changed", function(t) {
+//   const actual = logic.sortTodos(
+//     [
+//       { id: 3, description: "Buy Sunglasses", done: false },
+//       { id: 2, description: "Buy Shoes", done: false }
+//     ], 'test')
+//   const expected = [
+//     { id: 3, description: "Buy Sunglasses", done: false },
+//     { id: 2, description: "Buy Shoes", done: false }
+//   ];
+//   t.deepEqual(actual, expected, "The input and output should be identical and un-ordered");
+//   t.end();
+// });
+
+test("Return items of list in ascending numerical order", function(t) {
+  const actual = logic.sortTodos(
+    [
+      { id: 3, description: "Buy Shoes", done: false },
+      { id: 7, description: "Buy Sunglasses", done: false },
+      { id: 1, description: "Buy goggles", done: false }
+    ], 'test')
+  const expected = [
+    { id: 1, description: "Buy goggles", done: false },
+    { id: 3, description: "Buy Shoes", done: false },
+    { id: 7, description: "Buy Sunglasses", done: false }
+  ];
+
+  t.deepEqual(actual, expected, "Items are in ascending numerical order");
+  t.end();
+});
