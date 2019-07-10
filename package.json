@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "dom.js",
   "scripts": {
-    "test": "node test.js | tap-spec"
+    "test": "node test.js | tap-spec",
+    "coverage": "nyc --reporter html --reporter text npm test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "nyc": "^14.1.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0"
   }
