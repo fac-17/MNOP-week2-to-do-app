@@ -37,3 +37,61 @@ test("Add new ID to newtodo object", function(t) {
   t.deepEqual(actual, expected, "Id needs to be added to sunglasses object");
   t.end();
 });
+
+// test("Return the specified todo item using the id", function(t) {
+//   const actual = logic.markTodo(
+//     [
+//       { id: 3, description: "Buy Sunglasses" },
+//       { id: 2, description: "Buy Shoes" }
+//     ],
+//     3
+//   );
+//   const expected = { id: 3, description: "Buy Sunglasses" };
+//   t.deepEqual(actual, expected, "Can we select todos using the id");
+//   t.end();
+// });
+
+// test("Toggle done value", function(t) {
+//   const actual = logic.markTodo(
+//     [
+//       { id: 3, description: "Buy Sunglasses", done: false },
+//       { id: 2, description: "Buy Shoes", done: true }
+//     ],
+//     3
+//   );
+//   const expected = { id: 3, description: "Buy Sunglasses", done: true };
+//   t.deepEqual(actual, expected, "Done value of sunglasses need to be true");
+//   t.end();
+// });
+
+test("Return entire todo array with single object.done value toggled", function(t) {
+  const actual = logic.markTodo(
+    [
+      { id: 3, description: "Buy Sunglasses", done: false },
+      { id: 2, description: "Buy Shoes", done: true }
+    ],
+    3
+  );
+  const expected = [
+    { id: 3, description: "Buy Sunglasses", done: true },
+    { id: 2, description: "Buy Shoes", done: true }
+  ];
+  t.deepEqual(actual, expected, "Buy sunglasses should now be set to false");
+  t.end();
+});
+
+test("Return entire todo array with single object.done value toggled", function(t) {
+  const actual = logic.markTodo(
+    [
+      { id: 3, description: "Buy Sunglasses", done: false },
+      { id: 2, description: "Buy Shoes", done: true }
+    ],
+    2
+  );
+  const expected = [
+    { id: 3, description: "Buy Sunglasses", done: false },
+    { id: 2, description: "Buy Shoes", done: false }
+  ];
+  t.deepEqual(actual, expected, "Buy shoes should be false");
+  t.end();
+});
