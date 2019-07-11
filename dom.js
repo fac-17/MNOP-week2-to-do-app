@@ -14,10 +14,12 @@
 
   // This function takes a todo, it returns the DOM node representing that todo
   var createTodoNode = function(todo) {
-    var todoNode = document.createElement("li");
-    // you will need to use addEventListener
+    
+    var todoNode = document.createElement('li');
+    // var submitButton = input[type=submit].addEventListener('click', );
+    var descriptionNode = `<span>${todo.description}</span>`
+    todoNode.appendChild(descriptionNode);
 
-    // add span holding description
 
     // this adds the delete button
     var deleteButtonNode = document.createElement("button");
@@ -28,7 +30,10 @@
     todoNode.appendChild(deleteButtonNode);
 
     // add markTodo button
-
+    var markTodoButton = document.createElement("button")
+    markTodoButton.innerHTML = "complete";
+    todoNode.appendChild(markTodoButton);
+    markTodoButton.setAttribute("class","markTodo");
     // add classes for css
 
     return todoNode;
