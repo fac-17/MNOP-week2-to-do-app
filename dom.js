@@ -31,6 +31,7 @@
       update(newState);
     });
     deleteButtonNode.innerHTML = "Delete";
+    deleteButtonNode.setAttribute("class", "deleteButton");
     todoNode.appendChild(deleteButtonNode);
     deleteButtonNode.setAttribute("class", "button");
 
