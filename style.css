@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  background-color: #effdbb;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+img {
+  width: auto;
+  max-width: 40%;
+  height: 100vh;
+}
+
+#content{
+  padding: 3% 5%;
+
+}
+
+h1 {
+  font-size: 3rem;
+  color: #5b6f11;
+}

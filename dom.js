@@ -7,9 +7,9 @@
   var addTodoForm = document.getElementById("add-todo");
 
   var state = [
-    { id: -3, description: "first todo" },
-    { id: -2, description: "second todo" },
-    { id: -1, description: "third todo" }
+    { id: -3, description: "ban single-use plastic" },
+    { id: -2, description: "impeach Donald Trump" },
+    { id: -1, description: "save the dolphins" }
   ]; // this is our initial todoList
 
   // This function takes a todo, it returns the DOM node representing that todo
@@ -54,6 +54,7 @@
       // hint: todoFunctions.addTodo
       var newState = todoFunctions.addTodo(state, newObj); // ?? change this!
       update(newState);
+      event.target.description.value = "";
     });
   }
 
