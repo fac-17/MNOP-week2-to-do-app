@@ -76,6 +76,17 @@ var todoFunctions = {
     todosCopy.sort(compare);
 
     return todosCopy;
+  },
+
+  editTodo: function(todos, idToEdit) {
+    let todosCopy = todoFunctions.cloneArrayOfObjects(todos);
+    let todoToEdit = todosCopy.find(obj => obj.id == idToEdit);
+
+    if (todoToEdit.edit) {
+      todoToEdit.edit = false;
+    } else todoToEdit.edit = true;
+
+    return todosCopy;
   }
 };
 
