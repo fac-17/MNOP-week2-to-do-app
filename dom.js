@@ -7,9 +7,9 @@
   var addTodoForm = document.getElementById("add-todo");
 
   var state = [
-    { id: -3, description: "ban single-use plastic" },
-    { id: -2, description: "impeach Donald Trump" },
-    { id: -1, description: "save the dolphins" }
+    { id: -3, description: "Ban single-use plastic" },
+    { id: -2, description: "Impeach Donald Trump" },
+    { id: -1, description: "Save the dolphins" }
   ]; // this is our initial todoList
 
   // This function takes a todo, it returns the DOM node representing that todo
@@ -32,6 +32,7 @@
     });
     deleteButtonNode.innerHTML = "Delete";
     todoNode.appendChild(deleteButtonNode);
+    deleteButtonNode.setAttribute("class", "button");
 
     // add markTodo button
     var markTodoButton = document.createElement("button");
@@ -42,9 +43,8 @@
 
     markTodoButton.innerHTML = "Complete";
     todoNode.appendChild(markTodoButton);
-    markTodoButton.setAttribute("class", "markTodo");
-
-    // add classes for css
+    markTodoButton.setAttribute("class", "button");
+    todoNode.setAttribute("class", "list-items");
 
     return todoNode;
   };

@@ -29,8 +29,30 @@ img {
 h1 {
   font-size: 3rem;
   color: #5b6f11;
+  font-family: 'Lobster', cursive;
 }
 
 .liStriked {
   text-decoration: line-through;
+}
+
+ul > li {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+
+}
+
+.button {
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+/* input[type="submit"] {
+  font-family: 'Black Han Sans' sans-serif;
+} */
+
+.list-items {
+  border: 0.1rem solid #757575;
+  margin: 0.6rem;
+  padding: 1rem;
+  box-shadow: 5px 4px #666666;
 }
