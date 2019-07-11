@@ -33,7 +33,7 @@
     deleteButtonNode.innerHTML = "Delete";
     deleteButtonNode.setAttribute("class", "deleteButton");
     todoNode.appendChild(deleteButtonNode);
-    deleteButtonNode.setAttribute("class", "button");
+    // deleteButtonNode.setAttribute("class", "button");
 
     // add markTodo button
     var markTodoButton = document.createElement("button");
