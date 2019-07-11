@@ -33,6 +33,7 @@
     deleteButtonNode.innerHTML = "Delete";
     deleteButtonNode.setAttribute("class", "deleteButton");
     todoNode.appendChild(deleteButtonNode);
+    deleteButtonNode.setAttribute("class", "button");
 
     // add markTodo button
     var markTodoButton = document.createElement("button");
@@ -43,9 +44,8 @@
 
     markTodoButton.innerHTML = "Complete";
     todoNode.appendChild(markTodoButton);
-    markTodoButton.setAttribute("class", "markTodo");
-
-    // add classes for css
+    markTodoButton.setAttribute("class", "button");
+    todoNode.setAttribute("class", "list-items");
 
     return todoNode;
   };

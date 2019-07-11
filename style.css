@@ -24,6 +24,7 @@ input {
   margin: 0.2rem 0.5rem; /* 2 */
   border-radius: 5px 20px 5px;
   padding: 0.3rem 0.8rem;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 img {
@@ -39,15 +40,13 @@ img {
 h1 {
   font-size: 3rem;
   color: #5b6f11;
-}
-
-li {
-  line-height: 2;
+  font-family: 'Lobster', cursive;
 }
 
 .liStriked {
   text-decoration: line-through;
 }
+
 
 /* This selects the input field  */
 [type="text"] {
@@ -80,4 +79,17 @@ li {
   float: right;
   background-color: #901506;
   color: white;
+
+ul > li {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  line-height: 2;
+}
+
+.list-items {
+  border: 0.1rem solid #757575;
+  margin: 0.6rem;
+  padding: 1rem;
+  box-shadow: 5px 4px #666666;
+
 }
