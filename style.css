@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -28,4 +29,8 @@ img {
 h1 {
   font-size: 3rem;
   color: #5b6f11;
+}
+
+.liStriked {
+  text-decoration: line-through;
 }

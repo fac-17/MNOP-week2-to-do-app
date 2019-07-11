@@ -19,9 +19,10 @@
     //var descriptionNode = `<span>${todo.description}</span>`;
     let liSpan = document.createElement("SPAN");
     liSpan.textContent = `${todo.description}`;
+    if (todo.done) {
+      liSpan.classList.add("liStriked");
+    }
     todoNode.appendChild(liSpan);
-
-    //todoNode.appendChild(descriptionNode);
 
     // this adds the delete button
     var deleteButtonNode = document.createElement("button");
@@ -29,13 +30,20 @@
       var newState = todoFunctions.deleteTodo(state, todo.id);
       update(newState);
     });
+    deleteButtonNode.innerHTML = "Delete";
     todoNode.appendChild(deleteButtonNode);
 
     // add markTodo button
     var markTodoButton = document.createElement("button");
-    markTodoButton.innerHTML = "complete";
+    markTodoButton.addEventListener("click", function(event) {
+      let newState = todoFunctions.markTodo(state, todo.id);
+      update(newState);
+    });
+
+    markTodoButton.innerHTML = "Complete";
     todoNode.appendChild(markTodoButton);
     markTodoButton.setAttribute("class", "markTodo");
+
     // add classes for css
 
     return todoNode;

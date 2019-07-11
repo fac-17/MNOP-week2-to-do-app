@@ -60,21 +60,20 @@ var todoFunctions = {
     // sortFunction will have same signature as the sort function in array.sort
     // hint: array.slice, array.sort
     var todosCopy = todoFunctions.cloneArrayOfObjects(todos);
-    function compare(a,b){
-      const keya = a.id
-      const keyb = b.id
+    function compare(a, b) {
+      const keya = a.id;
+      const keyb = b.id;
 
-    let comparison = 0;
-    if (keya > keyb) {
-      comparison = 1
+      let comparison = 0;
+      if (keya > keyb) {
+        comparison = 1;
+      } else if (keya < keyb) {
+        comparison = -1;
+      }
+      return comparison;
     }
-    else if (keya < keyb) {
-      comparison = -1
-    }
-    return comparison
-  }
 
-  todosCopy.sort(compare)
+    todosCopy.sort(compare);
 
     return todosCopy;
   }
