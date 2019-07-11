@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  display: flex;
   background-color: #effdbb;
   padding: 0;
   margin: 0;
@@ -19,23 +18,44 @@ body {
 button,
 input {
   font-family: inherit; /* 1 */
-  font-size: 1.7rem; /* 1 */
+  font-size: 1rem; /* 1 */
   line-height: 1.35; /* 1 */
   margin: 0.2rem 0.5rem; /* 2 */
   border-radius: 5px 20px 5px;
   padding: 0.3rem 0.8rem;
-  font-family: "Black Han Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 
-img {
-  width: auto;
-  max-width: 40%;
-  height: 100vh;
+button {
+  font-family: 'Black Han Sans', sans-serif;
+  cursor: pointer;
+  background-color: #3da35d;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: "Black Han Sans", sans-serif;
+
+}
+
+.image {
+  background-image: url(tree.jpeg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 #content {
   padding: 3% 5%;
 }
+
+/* #todo-container {
+  display: flex;
+  justify-content: center;
+} */
 
 h1 {
   font-size: 3rem;
@@ -53,16 +73,20 @@ h1 {
 }
 
 [type="submit"] {
-  background-color: #3b0059;
   color: white;
   width: 20%;
   font-size: ;
   float: right;
+  font-family: 'Black Han Sans', sans-serif;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #0b3954;
 }
 
+
 [type="submit"]:hover {
-  background-color: white;
-  color: #3b0059;
+  background-color: #bbe5ed;
+  color: #0b3954;
   width: 20%;
   font-size: ;
   border-radius: 20px 5px 20px;
@@ -74,16 +98,27 @@ h1 {
   font-weight: 700;
 }
 
+#inputField {
+  font-size: 2rem;
+}
+
+ul {
+  margin: 2rem;
+}
+
 .deleteButton {
   float: right;
   background-color: #901506;
   color: white;
+
 }
 
 ul > li {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
   line-height: 2;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
 }
 
 .list-items {
@@ -91,4 +126,11 @@ ul > li {
   margin: 0.6rem;
   padding: 1rem;
   box-shadow: 5px 4px #666666;
+  min-width: -webkit-fill-available;
+  background-color: #bbe5ed;
+}
+
+.deleteButton {
+  float: right;
+  background-color: #ff6663;
 }
