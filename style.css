@@ -36,6 +36,8 @@ button {
 .body-grid {
   display: grid;
   grid-template-columns: 50% 50%;
+  font-family: "Black Han Sans", sans-serif;
+
 }
 
 .image {
@@ -58,13 +60,12 @@ button {
 h1 {
   font-size: 3rem;
   color: #5b6f11;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .liStriked {
   text-decoration: line-through;
 }
-
 
 /* This selects the input field  */
 [type="text"] {
@@ -97,8 +98,6 @@ h1 {
   font-weight: 700;
 }
 
-
-
 #inputField {
   font-size: 2rem;
 }
@@ -107,8 +106,15 @@ ul {
   margin: 2rem;
 }
 
+.deleteButton {
+  float: right;
+  background-color: #901506;
+  color: white;
+
+}
+
 ul > li {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   list-style-type: none;
   line-height: 2;
   display: grid;
