@@ -51,7 +51,8 @@
 
     markTodoButton.innerHTML = "Complete";
     todoNode.appendChild(markTodoButton);
-    markTodoButton.setAttribute("class", "button");
+    // markTodoButton.setAttribute("class", "button");
+    markTodoButton.setAttribute("class", "completeButton");
     todoNode.setAttribute("class", "list-items");
 
     //End mark todo
@@ -66,12 +67,14 @@
     editTodoButton.innerHTML = "Edit";
     todoNode.appendChild(editTodoButton);
     markTodoButton.setAttribute("class", "button");
+    editTodoButton.setAttribute("class", "editButton");
     todoNode.setAttribute("class", "list-items");
     // End edit
 
     if (todo.done) {
       liSpan.classList.add("liStriked");
       markTodoButton.innerHTML = "Uncomplete";
+      markTodoButton.setAttribute("id", "notComplete");
     }
     todoNode.appendChild(liSpan);
 
@@ -79,7 +82,7 @@
       liSpan.style.display = "none";
       editInput.display = "block";
       editInput.value = todo.description;
-      editTodoButton.innerHTML = "save";
+      editTodoButton.innerHTML = "Save";
       todoNode.appendChild(editInput);
     } else if (!todo.edit && editInput.value !== todo.description) {
       liSpan.style.display = "block";
