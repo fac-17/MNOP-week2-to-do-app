@@ -23,12 +23,11 @@ input {
   margin: 0.2rem 0.5rem; /* 2 */
   border-radius: 5px 20px 5px;
   padding: 0.3rem 0.8rem;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 
 button {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: "Black Han Sans", sans-serif;
   cursor: pointer;
   background-color: #3da35d;
 }
@@ -37,7 +36,6 @@ button {
   display: grid;
   grid-template-columns: 50% 50%;
   font-family: "Black Han Sans", sans-serif;
-
 }
 
 .image {
@@ -77,12 +75,11 @@ h1 {
   width: 20%;
   font-size: ;
   float: right;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: "Black Han Sans", sans-serif;
   padding: 1rem;
   cursor: pointer;
   background-color: #0b3954;
 }
-
 
 [type="submit"]:hover {
   background-color: #bbe5ed;
@@ -103,14 +100,13 @@ h1 {
 }
 
 ul {
-  margin: 2rem;
+  margin: rem;
 }
 
 .deleteButton {
   float: right;
   background-color: #901506;
   color: white;
-
 }
 
 ul > li {
@@ -118,7 +114,7 @@ ul > li {
   list-style-type: none;
   line-height: 2;
   display: grid;
-  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 20% 20% 20% 70%;
 }
 
 .list-items {
