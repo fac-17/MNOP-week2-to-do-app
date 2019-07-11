@@ -46,13 +46,14 @@ button {
 }
 
 #content {
-  padding: 4% 2% 10% 2%;
+  padding: 2% 2% 2% 2%;
 }
 
 h1 {
   font-size: 5rem;
   color: #37430a;
   font-family: "Lobster", cursive;
+  margin: 0;
 }
 
 .liStriked {
