@@ -7,9 +7,9 @@
   var addTodoForm = document.getElementById("add-todo");
 
   var state = [
-    { id: -3, description: "ban single-use plastic" },
-    { id: -2, description: "impeach Donald Trump" },
-    { id: -1, description: "save the dolphins" }
+    { id: -3, description: "Ban single-use plastic" },
+    { id: -2, description: "Impeach Donald Trump" },
+    { id: -1, description: "Save the dolphins" }
   ]; // this is our initial todoList
 
   // This function takes a todo, it returns the DOM node representing that todo
@@ -31,6 +31,7 @@
       update(newState);
     });
     deleteButtonNode.innerHTML = "Delete";
+    deleteButtonNode.setAttribute("class", "deleteButton");
     todoNode.appendChild(deleteButtonNode);
 
     // add markTodo button
