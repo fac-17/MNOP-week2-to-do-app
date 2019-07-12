@@ -20,7 +20,9 @@ The mission could be split into three key parts:
 
 ## What ⚒️ did we need in our 🧰?
 
-![(Over to Q)](https://media.giphy.com/media/JPMTkCi1Zrupy/giphy.gif)
+**TDD** was the main tool we used on Wednesday, followed by **Javascript** on Thursday and a sprinkle of **CSS** and **HTML** on Thursday afternoon, too.
+
+![Over to Q](https://media.giphy.com/media/JPMTkCi1Zrupy/giphy.gif)
 
 ## Wednesday:
 ### What we've achieved:
