@@ -2,7 +2,7 @@
 
 ## Introducing: The Team
 
-@[georgiamshaw](https://github.com/georgiamshaw)
+[@georgiamshaw](https://github.com/georgiamshaw)
 
 [@andy-mc-donald](https://github.com/andy-mc-donald)
 
