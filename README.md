@@ -20,7 +20,9 @@ The mission could be split into three key parts:
 
 ## Want to be part of our Mission? Here are the instructions:
 
-``` git clone ```
+``` git clone  git@github.com:fac-17/MNOP-week2-to-do-app.git
+    cd master
+    npm install ```
 
 ## How we approached our Mission
 
