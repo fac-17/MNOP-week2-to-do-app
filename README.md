@@ -18,6 +18,10 @@ The mission could be split into three key parts:
 * Render the to-do list to the DOM
 * Pimp up our to do list and make it look on point 🎯
 
+## Want to be part of our Mission? Here are the instructions:
+
+``` git clone ```
+
 ## How we approached our Mission
 
 * We used hackmd tickboxes to create a to-do list so that everybody could see what we were working on
