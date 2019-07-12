@@ -10,12 +10,13 @@
 
 [@tonylomax](https://github.com/tonylomax)
 
-## Use TDD to build a To-do app
+## Our mission: Use TDD to build a To-do app
 
-The was to build a basic To-do app and the project is split into three parts:
+The mission could be split into three key parts:
+
 * Use TDD to create the logic needed to modify your to-do list 
 * Render the to-do list to the DOM
-* Add our own features
+* Pimp up our to do list and make it look on point 🎯
 
 ## Wednesday:
 ### What we've achieved:
