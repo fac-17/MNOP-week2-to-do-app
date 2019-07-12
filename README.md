@@ -23,7 +23,8 @@ The mission could be split into three key parts:
 ``` git clone  git@github.com:fac-17/MNOP-week2-to-do-app.git
     cd MNOP-week2-to-do-app
     atom .
-    npm install ```
+    npm install
+  ```
 
 ## How we approached our Mission
 
