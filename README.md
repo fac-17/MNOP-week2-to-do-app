@@ -85,5 +85,5 @@ The mission could be split into three key parts:
 * For the mobile version we switched to a clean list-only view and got rid of the image down the left-hand side.
 
 ### Screenshots:
-
+[screenshot_desktop](To-do-list-screenshot(desktop).png)
 
