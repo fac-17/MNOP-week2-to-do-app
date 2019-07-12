@@ -18,21 +18,43 @@ The mission could be split into three key parts:
 * Render the to-do list to the DOM
 * Pimp up our to do list and make it look on point 🎯
 
+## How we approached our Mission
+
+* We used hackmd tickboxes to create a to-do list so that everybody could see what we were working on
+* We regularly reconvened to check in the partnerships. 
+
 ## What ⚒️ did we need in our 🧰?
 
-**TDD** was the main tool we used on Wednesday, followed by **Javascript** on Thursday and a sprinkle of **CSS** and **HTML** on Thursday afternoon, too.
+**TDD** was the main tool we used on Wednesday, including **tape**, **tap** and **istanbul**. On Thursday we explored more **Javascript** and used a sprinkle of **CSS** and **HTML** on Thursday afternoon, too.
 
 ![Over to Q](https://media.giphy.com/media/JPMTkCi1Zrupy/giphy.gif)
 
-## Wednesday:
-### What we've achieved:
+## Goals
+
+- [x] Enter tasks I need to do into a web page so that I don't forget them
+- [x] View the tasks I have added in a list so that I can plan my day
+- [x] Mark tasks as complete so that I can focus on the tasks I have left
+- [x] The to-dos to be large enough so that I don't hit the wrong one with my thumb
+
+## Stretch Goals
+
+- [x] Edit to dos so that I can amend tasks (almost!!!)
+- [ ] Click on any part of a to do to mark it as complete
+- [ ] A visual indication of which to do I'm about to interact with
+
+## What's gone well: Mission completed
+
+*
+
+## What could have gone better: Mission almost completed
+
+* We found that on the first day of testing we should have checked in with each other more as Tony and Leonie went far ahead and could have supported Andy and Georgia earlier on with their testing
+
+## What we've achieved:
 
 * We all understand the relationship between our javascript and our testing file.
 * We are able to write tests, and then write code to pass them.
 * Completed part 1 of the requirements for this project.
-
-## Thursday:
-### What we've achieved:
 * We completed the DOM.js
 * Styled our to-do app with CSS
 
@@ -53,88 +75,7 @@ The mission could be split into three key parts:
     
     
     
-    
-    Project 2 - To-Do App
-To-Do List
-- [x] Everyone read JS
-- [x] Create repo
-- [x] Everyone clone repo
-- [x] Create Readme
-- [ ] Assign ReadMe to people
-- [x] Check everyone has dependencies
-- [x] Divide JS function work between pairs
-Wednesday
-PART 1
-- [x] Create three functions in todoFunction Object, using TDD
-- [x] Complete stretch goal function (sort)
-PART 2
-- [x] Complete createTodoNode function, using TDD
-- [ ] Create wireframe for site to check functionality
-Thursday
-- [ ] Integrated/functional testing
-PART 4
-Pair 1
-- [x] Make complete button toggle done value in todo object
-- [x] Add ‘delete’ name to delete button
-- [x] Add titles, headers etc
-Pair 2
-- [x] Number each ID using todo ID (can’t be done)
-- [x] Make everything bigger
-- [x] Change the initial todos to better examples
-- [x] Remove text from input on submit
-Extra
-- [x] Make input text box bigger *
-- [x] Submit button bigger and style
-- [x] Style delete and complete buttons and align right. Make complete change to uncomplete
-- [x] Border and margin around list items *
-- [x] Change fonts *
-- [x] Get rid of bullett points
-- [x] Additional styling
-- [x] Branding
-- [x] Colours
-Stretch
-- [x] Add edit button
-More CSS
-- [ ] Add hover over for buttons
-- [x] Change button colors
-- [x] Float buttons right
-- [x] Align list and submit sections
-- [x] Change the submit font
-Friday
-- [x] Read through code review issues and assign
-- [x] Decide on most pressing issues and complete
-- [ ] Final live tests
-- [ ] Check ReadMe. It must have install instructions + dependencies
-- [ ] Ensure presentation is ready
-Code Review Issues
-- [x] Blank to-do can be submitted
-- [x] Text of long todo doesn’t wrap but escapes box
-- [ ] Option: you could incorporate the forest pic into the center of the page (probably as background image) on a mobile layout, rather than being off to one side.
-- [x] You could put the h1 Environmental to-do list inside html header tag or something like that instead of just inside the body with everything else. (We decided against this)
-- [ ] Mobile version
-- [ ] Probably also add a min-width and max-width to prevent weird things happening.
-- [x] Delete draws a line through item but also changes size of the button and alters layout slightly, so this should be fixed at some point. Med-high priority actually.
-- [x] There are a few bits of commented code that should be removed
-- [x] Additional browser tags:
-```
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie-edge" >
-```
-- [x] Favicon
-- [x] Search engine stuff in the html
-```
-<meta name="description" content="environmental-themed to-do list" >
-<meta name="keywords" content="to, do, list, environment, trees, earth" >
-<meta name="author" content="Your Company Name" >
-```
-- [x] Delete comments (L/T)
-- [x] Change innerhtml to text content (L/T)
-- [ ] Main image not fully mobile reponsive
-- [x] Image hidden when deleting tasks - The bottom green border gets pulled up when deleting tasks, meaning the lovely tree photo disappears.
-- [x] Margin - It would be nice, for consistency and harmony, to adjust top/bottom/left/right margins of your right column. (L/T)
-- [x] Add alt tag to main image (L/T)
-- [x] Change to 2 fonts not 3 (L/T)
-- [x] Readjust title on re-size (L/T)
+
 —
 Recap at the end of Wednesday:
 What we’ve achieved:
