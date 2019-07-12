@@ -4,7 +4,6 @@
   var addTodoForm = document.getElementById("add-todo");
 
   var state = [
-    { id: -3, description: "Ban single-use plastic", edit: false },
     { id: -2, description: "Impeach Donald Trump", edit: false },
     { id: -1, description: "Save the dolphins", edit: false }
   ]; // this is our initial todoList
