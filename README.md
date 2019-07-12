@@ -42,21 +42,25 @@ The mission could be split into three key parts:
 - [ ] Click on any part of a to do to mark it as complete
 - [ ] A visual indication of which to do I'm about to interact with
 
-## What's gone well: Mission completed
+## What we've achieved: Mission completed
 
-*
+* We all understand the relationship between our Javascript and our testing file.
+* We are able to write tests 🧪 and then write code to pass them.
+* We completed the Javascript so that the to do app ran as we wanted it to.
+* Styled our to-do app with great CSS 🎨
 
 ## What could have gone better: Mission almost completed
 
 * We found that on the first day of testing we should have checked in with each other more as Tony and Leonie went far ahead and could have supported Andy and Georgia earlier on with their testing
+* Better understand the order of when things run inside our Javascript files
+* Changing styling of html elements created in Javascript
+* Edit button could have been finished:
+   * We tried to add an edit button, we changed the objects to have an edit:true/false key/value pair
+   * We then created a new function in the logic.js to change this value
+   * We rendered the button and had a text input box come up that we then wanted to replace the description span with
+   * We couldn’t get this to work, the span description value always defaulted to it’s origial value - possibly because of an    issue with the if statement
 
-## What we've achieved:
 
-* We all understand the relationship between our javascript and our testing file.
-* We are able to write tests, and then write code to pass them.
-* Completed part 1 of the requirements for this project.
-* We completed the DOM.js
-* Styled our to-do app with CSS
 
 
 ### What we've learnt today:
