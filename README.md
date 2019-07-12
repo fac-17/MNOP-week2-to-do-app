@@ -83,7 +83,3 @@ The mission could be split into three key parts:
 * Set the image to background in the grid and the size of that section as a percentage. This prevented the picture from distoring.
 * We used normalize. This mostly helped with ocassional conflicts 😳
 * For the mobile version we switched to a clean list-only view and got rid of the image down the left-hand side.
-
-### Screenshots:
-![desktop_version](To-do-list-screenshot(desktop).png)
-
