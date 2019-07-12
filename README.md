@@ -1,5 +1,12 @@
 # MNOP-week2-to-do-app
-===
+
+## Introducing: The Team
+
+[@georgiamshaw](https://github.com/georgiamshaw)
+[@andy-mc-donald](https://github.com/andy-mc-donald)
+[@laleonie](https://github.com/LaLeonie)
+[@tonylomax](https://github.com/tonylomax)
+
 ## Use TDD to build a To-do app
 
 The was to build a basic To-do app and the project is split into three parts:
