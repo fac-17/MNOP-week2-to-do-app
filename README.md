@@ -84,48 +84,6 @@ The mission could be split into three key parts:
 * We used normalize. This mostly helped with ocassional conflicts 😳
 * For the mobile version we switched to a clean list-only view and got rid of the image down the left-hand side.
 
+### Screenshots:
 
-
-—
-Recap at the end of Wednesday:
-What we’ve achieved:
-* We all understand the relationship between our javascript and our testing file.
-* We are able to write tests, and then write code to pass them.
-* Completed part 1 of the requirements for this project.
-What we need to work on:
-* The rest of the project.
-* Better at communicating with each other about falling behind/not understanding.
-* Swap partners more regularly.
-* Setting up a structure in CSS file
-*
-Plans for tomorrow:
-* Review where we are with all the functions.
-* Work on dom.js.
-* Finish part 2 for lunch!
-* Spend the afternoon working on:
-* Filtering by completed (linked to sort function already done on Wednesday)
-* Editing descriptions
-* CSS and HTML
-* Testing
-**Assume that it will take 2 people 3 hours to complete 1 part of part 2 (there are two parts of part 2). If after 90 mins, if 1 team is finished, swap partners.
-Have check ins every half an hour.**
-___
-Thursday
-What we’ve learnt today:
-* preventDefault() will stop our submit form from automatically reloading the page, which is it’s default behaviour
-* To access the text inside a form, you need to use event.target.description.value - event.target isn’t good enough because all it does it access the form and not the changing text within it.
-* Rendering array elements to the dom using a function that iterates through.
-* Appending childs
-* Friday: word-break: break-all! Amazing!!
-What we struggled with
-* Changing styling of html elements created in Javascript
-* Edit button
-* We tried to add an edit button, we changed the objects to have an edit:true/false key/value pair
-* We then created a new function in the logic.js to change this value.
-* We rendered the button and had a text input box come up that we then wanted to replace the description span with.
-* We couldn’t get this to work, the span description value always defaulted to it’s origial value - possibly because of an issue with the if statement
-Thanks To
-Big thank you to Jan for his help on line through on completed!
-
-And James for some other things we can’t remember
 
