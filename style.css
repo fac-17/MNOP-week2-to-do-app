@@ -113,6 +113,7 @@ ul > li {
   box-shadow: 2px 2px rgba(24, 38, 2, 0.4);
   min-width: -webkit-fill-available;
   background-color: #fcfde8;
+  word-break: break-all;
 }
 
 li span,
@@ -147,4 +148,20 @@ li button:nth-child(2) {
 
 #notComplete {
   background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .body-grid {
+      display: block;
+      grid-template-columns: 0% 100%;
+  }
+    body {
+      font-size: 1.5rem;
+    }
+    button, input {
+      font-size: 0.6rem;
+    }
+    #inputField {
+      font-size: 1.5rem;
+    }
 }

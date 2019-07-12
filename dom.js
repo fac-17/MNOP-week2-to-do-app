@@ -85,9 +85,13 @@
   if (addTodoForm) {
     addTodoForm.addEventListener("submit", function(event) {
       event.preventDefault(); // Prevent page from reloading
-      var description = event.target.description.value;
-      var newObj = { description: description, done: false, edit: false };
-      var newState = todoFunctions.addTodo(state, newObj);
+
+      var description = event.target.description.value; 
+      // stops you entering an empty submit
+      if (description != '') {
+        var newObj = { description: description, done: false, edit: false };
+      }
+      var newState = todoFunctions.addTodo(state, newObj); 
       update(newState);
       event.target.description.value = "";
     });
