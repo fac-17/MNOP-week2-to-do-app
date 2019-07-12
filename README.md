@@ -18,23 +18,6 @@ The mission could be split into three key parts:
 * Render the to-do list to the DOM
 * Pimp up our to do list and make it look on point 🎯
 
-## Want to be part of our Mission? Here are the instructions:
-
-``` 
-    git clone git@github.com:fac-17/MNOP-week2-to-do-app.git
-    
-    cd MNOP-week2-to-do-app
-    
-    atom .
-    
-    npm init
-    
-    npm install
-    
-    npm test
-    
-  ```
-
 ## How we approached our Mission
 
 * We used hackmd tickboxes to create a to-do list so that everybody could see what we were working on
@@ -78,14 +61,30 @@ The mission could be split into three key parts:
    * We couldn’t get this to work, the span description value always defaulted to it’s origial value - possibly because of an    issue with the if statement
 
 ### What we've learnt:
-* preventDefault() will stop our submit form from automatically reloading the page, which is it's default behaviour
+
+#### JS
+* preventDefault() will stop our submit form from automatically reloading the page, which is its default behaviour
 * To access the text inside a form, you need to use event.target.description.value - event.target isn't good enough because all it does it access the form and not the changing text within it.
 * Rendering array elements to the dom using a function that iterates through.
 * Appending childs
 
+ ![](https://i.imgur.com/bfR6zNX.png)
+ * Rendering array elements to the dom using a function that iterates through.
+ * Appending children
+ 
+ * We got familiar with callbacks 
+ * array.find to access an object in an array without needing to use a foreach loop
+![](https://i.imgur.com/6HUlUyl.png)
 
-    
-    
+#### CSS
+* In the CSS we were able to fix overflow issues with our input text by using: `word-break: break-all`
+* Made header responsive with view port width as a unit
+* We used grid and grid templates to maintain consistency. Buttons don't change size 🙌
+* Set the image to background in the grid and the size of that section as a percentage. This prevented the picture from distoring.
+* We used normalize. This mostly helped with ocassional conflicts 😳
+* For the mobile version we switched to a clean list-only view and got rid of the image down the left-hand side.
+
+
 
 —
 Recap at the end of Wednesday:
