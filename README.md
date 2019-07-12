@@ -29,14 +29,14 @@ The mission could be split into three key parts:
 
 ![Over to Q](https://media.giphy.com/media/JPMTkCi1Zrupy/giphy.gif)
 
-## Goals
+## Goals ⚽
 
 - [x] Enter tasks I need to do into a web page so that I don't forget them
 - [x] View the tasks I have added in a list so that I can plan my day
 - [x] Mark tasks as complete so that I can focus on the tasks I have left
 - [x] The to-dos to be large enough so that I don't hit the wrong one with my thumb
 
-## Stretch Goals
+## Stretch Goals ⚽⚽
 
 - [x] Edit to dos so that I can amend tasks (almost!!!)
 - [ ] Click on any part of a to do to mark it as complete
