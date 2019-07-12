@@ -102,7 +102,10 @@
       // what is inside event.target?
       event.preventDefault(); // Prevent page from reloading
       var description = event.target.description.value; // event.target ....
-      var newObj = { description: description, done: false, edit: false };
+      // stops you entering an empty submit
+      if (description != '') {
+        var newObj = { description: description, done: false, edit: false };
+      }
 
       // hint: todoFunctions.addTodo
       var newState = todoFunctions.addTodo(state, newObj); // ?? change this!
