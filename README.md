@@ -10,13 +10,17 @@
 
 [@tonylomax](https://github.com/tonylomax)
 
-## Our mission: Use TDD to build a To-do app
+## Our Mission: Use TDD to build a To-do app
 
 The mission could be split into three key parts:
 
 * Use TDD to create the logic needed to modify your to-do list 
 * Render the to-do list to the DOM
 * Pimp up our to do list and make it look on point 🎯
+
+## What ⚒️ did we need in our 🧰?
+
+![(Over to Q)](https://media.giphy.com/media/JPMTkCi1Zrupy/giphy.gif)
 
 ## Wednesday:
 ### What we've achieved:
