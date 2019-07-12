@@ -27,7 +27,12 @@ The mission could be split into three key parts:
     
     atom .
     
+    npm init
+    
     npm install
+    
+    npm test
+    
   ```
 
 ## How we approached our Mission
