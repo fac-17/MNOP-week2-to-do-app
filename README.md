@@ -55,28 +55,18 @@ The mission could be split into three key parts:
 * Better understand the order of when things run inside our Javascript files
 * Changing styling of html elements created in Javascript
 * Edit button could have been finished:
-   * We tried to add an edit button, we changed the objects to have an edit:true/false key/value pair
+   * We changed the objects to have an edit:true/false key/value pair
    * We then created a new function in the logic.js to change this value
    * We rendered the button and had a text input box come up that we then wanted to replace the description span with
    * We couldn’t get this to work, the span description value always defaulted to it’s origial value - possibly because of an    issue with the if statement
 
-
-
-
-### What we've learnt today:
+### What we've learnt:
 * preventDefault() will stop our submit form from automatically reloading the page, which is it's default behaviour
 * To access the text inside a form, you need to use event.target.description.value - event.target isn't good enough because all it does it access the form and not the changing text within it.
 * Rendering array elements to the dom using a function that iterates through.
 * Appending childs
 
-### What we struggled with
-* Changing styling of html elements created in Javascript 
-* Edit button
-    * We tried to add an edit button, we changed the objects to have an edit:true/false key/value pair
-    * We then created a new function in the logic.js to change this value. 
-    * We rendered the button and had a text input box come up that we then wanted to replace the description span with. 
-    * We couldn't get this to work, the span description value always defaulted to it's origial value - possibly because of an issue with the if statement
-    
+
     
     
 
